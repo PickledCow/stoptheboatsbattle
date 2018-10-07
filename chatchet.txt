@@ -1,0 +1,42 @@
+Player:
+health: 250-500
+
+Walls:
+health: 200
+
+Boats:
+health: 300
+spawn rate: 15-35 sec
+SMG ammo: 100-400
+chance of:
+	Grenade: 50%
+	Boom Boat: 50%
+	1 Heal: 50%
+	2 Heals: 25%
+
+Rifle:
+magazine: infinite
+firerate: 120 rpm
+damage: 50 (x2/5 to walls)
+
+SMG:
+magazine: 100
+firerate: 3600 rpm
+damage: 1 (x3 to walls, x2 to boats)
+reload: 2 sec
+
+Grenade:
+limit: 2
+firerate: 30 rpm
+damage: 200
+
+Boom Boats:
+limit: 2
+health: 200
+speed: 2.5 sec
+damage: 200 (500 to walls)
+
+Heal:
+limit: 5
+time: 3 sec
+amount: 75

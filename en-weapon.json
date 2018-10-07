@@ -1,0 +1,28 @@
+{
+	"titles": {
+			"00": "Anti-Ship Offense System",
+			"01": "Burst Fire Anti-Ship Offense System",
+			"10": "Tactical Boat Repellant",
+			"11": "Minigun",
+			"20": "LOL NO CLUE",
+			"21": "LOL NO CLUE HA",
+			"30": "Grenade Launcher",
+			"31": "Rocket Propelled Grenade",
+			"40": "Turret Repair Kit",
+			"41": "Armour Repair Kit",
+			"42": "All-in-one Repair Kit"
+	},
+	"descriptions": {
+			"00": "A basic weapon primarily designed for offensive purposes. Does moderate damage to opponents and has an average fire-rate. This weapon is great for combat but not very good at breaking defenses.",
+			"01": "A modified version of the Anti-Ship Offense System that shoots in controlled bursts of 3. This allows for peek striking but at the cost of decreased damage and fire-rate. This weapon is great for combat but not very good at breaking defenses.",
+			"10": "A light and fast, rapid-fire weapon that shredds anything in its path. Has an extremely high damage-per-second but at the cost of a wide bullet spread. \n\nHas no charge-up and fires instantly, but has a limited magazine size requiring reload often. Does extra damage against defenses.",
+			"11": "A powerful, rapid-fire weapon that shredds anything in its path. Has an extremely high damage-per-second but at the cost of a wide bullet spread. \n\nNeeds to wind up before being able to start firing but can sustain fire as long as it doesn't overheat, which it then must cool down before being suitable to use again. Does extra damage against defenses.",
+			"20": "Somebody once told me the world is gonna roll me\nI ain't the sharpest tool in the shed\nShe was looking kind of dumb with her finger and her thumb\nIn the shape of an L on her forehead\n\nWell the years start coming and they don't stop coming\nFed to the rules and I hit the ground running\nDidn't make sense not to live for fun\nYour brain gets smart but your head gets dumb\nSo much to do so much to see\nSo what's wrong with taking the back streets\nYou'll never know if you don't go\nYou'll never shine if you don't glow",
+			"21": "d",
+			"30": "An extremely powerful explosive that can be thrown over defense. Does devastating damage to those caught in its blast radius. ",
+			"31": "A high speed, rocket propelled grenade launcher that can suppress opponents and destroy defenses.",
+			"40": "Restores 50 health to your Turret. Can heal back up to 300 health but can never get any shield.",
+			"41": "Restores 50 armour to your Turret. Can heal up to 450 health+armour at full health but only up to 150 shield.",
+			"42": "Restores 20 health and 20 armour to your Turret. Can heal up to 450 at any time but doesn't heal as much compared to a Turret/Armour Repair Kit."
+	}
+}

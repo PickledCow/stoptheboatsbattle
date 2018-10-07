@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Bomb Dropping-SoundBible.com-520453906.wav-80607a4c0aceed067ff67b924ec90c3c.sample"
+
+[deps]
+
+source_file="res://sound/se/Bomb Dropping-SoundBible.com-520453906.wav"
+source_md5="b38895edbca8833ebfea5c285a96bc39"
+
+dest_files=[ "res://.import/Bomb Dropping-SoundBible.com-520453906.wav-80607a4c0aceed067ff67b924ec90c3c.sample" ]
+dest_md5="dfa45612be9698ab1d7c7bd037095ce5"
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

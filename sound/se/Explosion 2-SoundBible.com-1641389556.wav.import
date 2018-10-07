@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Explosion 2-SoundBible.com-1641389556.wav-3985bb41b47186769af41f5ef07cd39d.sample"
+
+[deps]
+
+source_file="res://sound/se/Explosion 2-SoundBible.com-1641389556.wav"
+source_md5="b372a67347ef1c5f4e9e8a1a1042c7c6"
+
+dest_files=[ "res://.import/Explosion 2-SoundBible.com-1641389556.wav-3985bb41b47186769af41f5ef07cd39d.sample" ]
+dest_md5="9beae20d4cf40effbb5f79672cea07a1"
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

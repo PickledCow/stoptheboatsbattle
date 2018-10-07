@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/minigun charge.wav-9634b9c886fa936c9169123a350f488d.sample"
+
+[deps]
+
+source_file="res://sound/se/minigun charge.wav"
+source_md5="5b01c03d1e91f0683bd1f2fc4f048cf1"
+
+dest_files=[ "res://.import/minigun charge.wav-9634b9c886fa936c9169123a350f488d.sample" ]
+dest_md5="d9f61c942dd82ce34c45149d6e8137a5"
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

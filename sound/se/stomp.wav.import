@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/stomp.wav-4cc6b79d7ec15efd8bd6942edda396f3.sample"
+
+[deps]
+
+source_file="res://sound/se/stomp.wav"
+source_md5="56f73cc04ed40443cc7f1829204c52d7"
+
+dest_files=[ "res://.import/stomp.wav-4cc6b79d7ec15efd8bd6942edda396f3.sample" ]
+dest_md5="b0abf7a68ef851a7fb67f4043fa549ba"
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

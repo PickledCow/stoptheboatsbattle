@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/minigun uncharge.wav-98068d5e5ec10e6ffe81dc2111d2558b.sample"
+
+[deps]
+
+source_file="res://sound/se/minigun uncharge.wav"
+source_md5="03523e159a47325556b0a707653b66e9"
+
+dest_files=[ "res://.import/minigun uncharge.wav-98068d5e5ec10e6ffe81dc2111d2558b.sample" ]
+dest_md5="a403158609b68e338c4583cb2b74ef57"
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

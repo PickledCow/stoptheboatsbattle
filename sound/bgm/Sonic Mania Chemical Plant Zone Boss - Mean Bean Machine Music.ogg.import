@@ -1,0 +1,18 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Sonic Mania Chemical Plant Zone Boss - Mean Bean Machine Music.ogg-377618289156b2f48d201b7e19ed347b.oggstr"
+
+[deps]
+
+source_file="res://sound/bgm/Sonic Mania Chemical Plant Zone Boss - Mean Bean Machine Music.ogg"
+source_md5="13ee1284a6e9e4a56d5e33a282c9b530"
+
+dest_files=[ "res://.import/Sonic Mania Chemical Plant Zone Boss - Mean Bean Machine Music.ogg-377618289156b2f48d201b7e19ed347b.oggstr" ]
+dest_md5="2feb4e50f528febe1855e8cf33fabb2c"
+
+[params]
+
+loop=true
+loop_offset=16.316

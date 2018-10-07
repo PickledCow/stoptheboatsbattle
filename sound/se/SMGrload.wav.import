@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/SMGrload.wav-5882d35e493d45338cf376cd36b7f23d.sample"
+
+[deps]
+
+source_file="res://sound/se/SMGrload.wav"
+source_md5="5fa5fcf95d3e8725565351ccd04889fc"
+
+dest_files=[ "res://.import/SMGrload.wav-5882d35e493d45338cf376cd36b7f23d.sample" ]
+dest_md5="bb52167c1b6bb9524bd2fa0af8432990"
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

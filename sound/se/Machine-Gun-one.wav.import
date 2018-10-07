@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Machine-Gun-one.wav-91e2279c069272e03e958c811bde7b30.sample"
+
+[deps]
+
+source_file="res://sound/se/Machine-Gun-one.wav"
+source_md5="dc3842091a8ac96b72234e229f138241"
+
+dest_files=[ "res://.import/Machine-Gun-one.wav-91e2279c069272e03e958c811bde7b30.sample" ]
+dest_md5="563cf29d69bcf2484feee131256bfe1b"
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

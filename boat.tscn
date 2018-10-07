@@ -1,0 +1,148 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://scripts/boat.gd" type="Script" id=1]
+[ext_resource path="res://sprites/bott.png" type="Texture" id=2]
+[ext_resource path="res://sprites/boombot.png" type="Texture" id=3]
+[ext_resource path="res://sprites/canono.png" type="Texture" id=4]
+[ext_resource path="res://sprites/black.png" type="Texture" id=5]
+[ext_resource path="res://sprites/laser2.png" type="Texture" id=6]
+
+[sub_resource type="RectangleShape2D" id=1]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 32 )
+
+[sub_resource type="SpriteFrames" id=2]
+
+animations = [ {
+"frames": [ ExtResource( 2 ) ],
+"loop": false,
+"name": "default",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 3 ) ],
+"loop": false,
+"name": "boom",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=3]
+
+custom_solver_bias = 0.0
+extents = Vector2( 1150, 13.3333 )
+
+[node name="KinematicBody2D" type="KinematicBody2D" index="0" groups=[
+"boat",
+]]
+
+pause_mode = 1
+position = Vector2( 0, -180 )
+scale = Vector2( 0.6, 0.6 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+collision/safe_margin = 0.08
+script = ExtResource( 1 )
+_sections_unfolded = [ "Pause", "Transform" ]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." index="0"]
+
+shape = SubResource( 1 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="." index="1"]
+
+light_mask = 1024
+frames = SubResource( 2 )
+animation = "default"
+
+[node name="cannon" type="Sprite" parent="." index="2"]
+
+visible = false
+light_mask = 1024
+texture = ExtResource( 4 )
+
+[node name="Sprite" type="Sprite" parent="." index="3"]
+
+visible = false
+modulate = Color( 1, 1, 1, 0.75 )
+light_mask = 8193
+scale = Vector2( 3840, 2160 )
+z_index = 20
+z_as_relative = false
+texture = ExtResource( 5 )
+_sections_unfolded = [ "Transform", "Visibility", "Z Index" ]
+
+[node name="Area2D" type="Area2D" parent="." index="4"]
+
+visible = false
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+_sections_unfolded = [ "Transform" ]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" index="0"]
+
+visible = false
+shape = SubResource( 3 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="Light2D" type="Light2D" parent="Area2D" index="1"]
+
+scale = Vector2( 1, 0.1 )
+z_index = 21
+z_as_relative = false
+enabled = true
+editor_only = false
+texture = ExtResource( 6 )
+offset = Vector2( 0, 0 )
+texture_scale = 1.0
+color = Color( 1, 1, 1, 1 )
+energy = 2.0
+mode = 0
+range_height = 0.0
+range_z_min = -1024
+range_z_max = 1024
+range_layer_min = 0
+range_layer_max = 0
+range_item_cull_mask = 1
+shadow_enabled = false
+shadow_color = Color( 0, 0, 0, 0 )
+shadow_buffer_size = 2048
+shadow_gradient_length = 0.0
+shadow_filter = 0
+shadow_filter_smooth = 0.0
+shadow_item_cull_mask = 1
+_sections_unfolded = [ "Transform", "Z Index" ]
+
+[node name="Timer" type="Timer" parent="." index="5"]
+
+process_mode = 1
+wait_time = 1.4
+one_shot = true
+autostart = false
+
+[node name="wait" type="Timer" parent="." index="6"]
+
+process_mode = 1
+wait_time = 0.75
+one_shot = true
+autostart = false
+
+[node name="laser shrink" type="Timer" parent="." index="7"]
+
+process_mode = 1
+wait_time = 0.5
+one_shot = true
+autostart = false
+
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
+
+[connection signal="timeout" from="wait" to="." method="_on_wait_timeout"]
+
+[connection signal="timeout" from="laser shrink" to="." method="_on_laser_shrink_timeout"]
+
+

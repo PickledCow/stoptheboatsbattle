@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/barely damaged.png-c18a8560ad1a02733e9c6d6869806b41.stex"
+
+[deps]
+
+source_file="res://sprites/barely damaged.png"
+source_md5="f71a5fa581c16cd0a330e9817c287857"
+
+dest_files=[ "res://.import/barely damaged.png-c18a8560ad1a02733e9c6d6869806b41.stex" ]
+dest_md5="6d90f9e7a5e6fd4b69c9d1ea22c33c14"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=false
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/RifleReload.wav-e7723d055502cdfe6a7ffc0dcb3f3f98.sample"
+
+[deps]
+
+source_file="res://sound/se/RifleReload.wav"
+source_md5="4fc0197bc64791350c5e9bfb413a1d0c"
+
+dest_files=[ "res://.import/RifleReload.wav-e7723d055502cdfe6a7ffc0dcb3f3f98.sample" ]
+dest_md5="559ec1e77abc9f942eaf122b6ef5f767"
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

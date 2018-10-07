@@ -1,0 +1,242 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://scripts/wall.gd" type="Script" id=1]
+[ext_resource path="res://sprites/transparent.png" type="Texture" id=2]
+[ext_resource path="res://sprites/Brick-0207.jpg" type="Texture" id=3]
+[ext_resource path="res://sprites/barely damaged.png" type="Texture" id=4]
+[ext_resource path="res://sprites/damaged.png" type="Texture" id=5]
+[ext_resource path="res://sprites/slightly damaged.png" type="Texture" id=6]
+[ext_resource path="res://sprites/breakingpoint.png" type="Texture" id=7]
+[ext_resource path="res://sprites/verydamaged.png" type="Texture" id=8]
+
+[sub_resource type="SpriteFrames" id=2]
+
+animations = [ {
+"frames": [ ExtResource( 4 ) ],
+"loop": false,
+"name": "barely damaged",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 5 ) ],
+"loop": false,
+"name": "damaged",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 6 ) ],
+"loop": false,
+"name": "slightly damaged",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 7 ) ],
+"loop": false,
+"name": "ultra damaged",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 8 ) ],
+"loop": false,
+"name": "very damaged",
+"speed": 5.0
+}, {
+"frames": [  ],
+"loop": true,
+"name": "perfect",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=3]
+
+custom_solver_bias = 0.0
+extents = Vector2( 40, 26.6667 )
+
+[node name="KinematicBody2D" type="KinematicBody2D" groups=[
+"wall",
+]]
+
+position = Vector2( 1000, 0 )
+scale = Vector2( 0.75, 0.75 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+collision/safe_margin = 0.08
+script = ExtResource( 1 )
+_sections_unfolded = [ "Transform", "Z Index" ]
+health = 100
+health_building = 100
+built = false
+player = "/root/Node2D/Player1/Player"
+player_1 = true
+
+[node name="Light2D" type="Light2D" parent="." index="0"]
+
+position = Vector2( 25.3334, 0.666664 )
+scale = Vector2( 0.791665, 1.1875 )
+enabled = true
+editor_only = false
+texture = ExtResource( 2 )
+offset = Vector2( 0, 0 )
+texture_scale = 1.0
+color = Color( 1, 1, 1, 1 )
+energy = 1.0
+mode = 3
+range_height = 0.0
+range_z_min = -1024
+range_z_max = 1024
+range_layer_min = 0
+range_layer_max = 0
+range_item_cull_mask = 2
+shadow_enabled = false
+shadow_color = Color( 0, 0, 0, 0 )
+shadow_buffer_size = 2048
+shadow_gradient_length = 0.0
+shadow_filter = 0
+shadow_filter_smooth = 0.0
+shadow_item_cull_mask = 1
+_sections_unfolded = [ "Range", "Shadow" ]
+
+[node name="Light2D2" type="Light2D" parent="." index="1"]
+
+position = Vector2( -29.3333, 1.33333 )
+scale = Vector2( 0.958331, 1.1875 )
+enabled = true
+editor_only = false
+texture = ExtResource( 2 )
+offset = Vector2( 0, 0 )
+texture_scale = 1.0
+color = Color( 1, 1, 1, 1 )
+energy = 1.0
+mode = 3
+range_height = 0.0
+range_z_min = -1024
+range_z_max = 1024
+range_layer_min = 0
+range_layer_max = 0
+range_item_cull_mask = 8
+shadow_enabled = false
+shadow_color = Color( 0, 0, 0, 0 )
+shadow_buffer_size = 2048
+shadow_gradient_length = 0.0
+shadow_filter = 0
+shadow_filter_smooth = 0.0
+shadow_item_cull_mask = 1
+_sections_unfolded = [ "Range", "Shadow" ]
+
+[node name="Sprite" type="Sprite" parent="." index="2"]
+
+modulate = Color( 0.5, 0.5, 1, 0.5 )
+light_mask = 1024
+position = Vector2( -4.0001, 0.466679 )
+rotation = 1.5708
+scale = Vector2( 0.05, 0.025 )
+texture = ExtResource( 3 )
+_sections_unfolded = [ "Transform", "Visibility" ]
+
+[node name="Sprite2" type="Sprite" parent="." index="3"]
+
+modulate = Color( 0.5, 0.5, 1, 0.5 )
+light_mask = 1024
+position = Vector2( -4.0001, -24.5333 )
+rotation = 1.5708
+scale = Vector2( 0.05, 0.025 )
+texture = ExtResource( 3 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="Sprite3" type="Sprite" parent="." index="4"]
+
+modulate = Color( 0.5, 0.5, 1, 0.5 )
+light_mask = 1024
+position = Vector2( -4.0001, 25.4667 )
+rotation = 1.5708
+scale = Vector2( 0.05, 0.025 )
+texture = ExtResource( 3 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="CollisionShape2D" type="CollisionPolygon2D" parent="." index="5"]
+
+position = Vector2( -28.6667, 0.333305 )
+scale = Vector2( 1.17241, 1 )
+build_mode = 0
+polygon = PoolVector2Array( 36.9609, -29.6666, 38.0981, 29, 15.3529, 37, -34.6864, 37, -34.6864, -36.3333, 15.3529, -36.3333 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="." index="6"]
+
+light_mask = 1024
+position = Vector2( -4, 0.466675 )
+scale = Vector2( 0.5, 1 )
+frames = SubResource( 2 )
+animation = "perfect"
+_sections_unfolded = [ "Transform", "Visibility" ]
+
+[node name="RichTextLabel" type="RichTextLabel" parent="." index="7"]
+
+visible = false
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 40.0
+margin_bottom = 40.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = true
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+bbcode_enabled = false
+bbcode_text = ""
+visible_characters = -1
+percent_visible = 1.0
+meta_underlined = true
+tab_size = 4
+text = "wAaa"
+scroll_active = true
+scroll_following = false
+selection_enabled = false
+override_selected_font_color = false
+
+[node name="Area2D" type="Area2D" parent="." index="8" groups=[
+"wall",
+]]
+
+position = Vector2( -28, 0.333305 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" index="0"]
+
+shape = SubResource( 3 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="." index="9"]
+
+visible = false
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 40.0
+margin_bottom = 40.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = true
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+bbcode_enabled = false
+bbcode_text = ""
+visible_characters = -1
+percent_visible = 1.0
+meta_underlined = true
+tab_size = 4
+text = "HEEl"
+scroll_active = true
+scroll_following = false
+selection_enabled = false
+override_selected_font_color = false
+
+

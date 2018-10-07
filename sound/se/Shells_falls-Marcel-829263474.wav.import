@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Shells_falls-Marcel-829263474.wav-b477a3c0d9680c61b0065962e58e3206.sample"
+
+[deps]
+
+source_file="res://sound/se/Shells_falls-Marcel-829263474.wav"
+source_md5="034654a820e37c14081667f7a5e57e98"
+
+dest_files=[ "res://.import/Shells_falls-Marcel-829263474.wav-b477a3c0d9680c61b0065962e58e3206.sample" ]
+dest_md5="88811a3672213c560ee1ff89def4b3bb"
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

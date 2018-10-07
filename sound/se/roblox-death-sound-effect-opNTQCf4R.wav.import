@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/roblox-death-sound-effect-opNTQCf4R.wav-c43b66562e1fd0e1a6c7c1287169c76c.sample"
+
+[deps]
+
+source_file="res://sound/se/roblox-death-sound-effect-opNTQCf4R.wav"
+source_md5="696721e911f8813df0ccd8ba2442b19e"
+
+dest_files=[ "res://.import/roblox-death-sound-effect-opNTQCf4R.wav-c43b66562e1fd0e1a6c7c1287169c76c.sample" ]
+dest_md5="d2b3303fb224b44738695ae47cd1909d"
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/High_Definition_Machine_gun-WEL-2006923900.wav-714c6edf47e30962ce5e167695526c24.sample"
+
+[deps]
+
+source_file="res://High_Definition_Machine_gun-WEL-2006923900.wav"
+source_md5="063be05c1397a7954422cbb5fb680a41"
+
+dest_files=[ "res://.import/High_Definition_Machine_gun-WEL-2006923900.wav-714c6edf47e30962ce5e167695526c24.sample" ]
+dest_md5="991a70f0adc54847109cf723be05b8c7"
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

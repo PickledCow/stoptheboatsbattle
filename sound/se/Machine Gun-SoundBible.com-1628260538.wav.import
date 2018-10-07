@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Machine Gun-SoundBible.com-1628260538.wav-d1783726200f8fe5ed57e0a40d243668.sample"
+
+[deps]
+
+source_file="res://sound/se/Machine Gun-SoundBible.com-1628260538.wav"
+source_md5="c34562db012692cb3e3a0ff89658e765"
+
+dest_files=[ "res://.import/Machine Gun-SoundBible.com-1628260538.wav-d1783726200f8fe5ed57e0a40d243668.sample" ]
+dest_md5="45285029a2c1fe1345fe06b93b145448"
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,14 @@
+a[x+1] will crash when x is 3 because 'a' doesn't have a 4th item.
+replacing a[x+1] with a[(x+1)%4] should make it so that if x == 3, it would overflow to the first item
+
+if we implement this change into foo it will:
+
+iterate over each value in array a (let this be x) and iterates over each value in x (let this be y)
+if the corresponding item in the next item of 'a'  is not NULL and is equal to our current item, double our current item
+if the corresponding item in the next item of 'a'  is not NULL and if our current item is NULL, set our current value to the corresponding item in the next item of 'a'
+set the corresponding item in the next item of 'a' to NULL
+running foo once will result in the first item of a to be [NULL,NULL,NULL,NULL] because the forth item started [NULL,NULL,NULL,NULL], wiping the first item,
+the second item will stay the same because the third item was [NULL,NULL,NULL,NULL], which stops any logic from occuring
+the third item will also stay the same for the same reason
+the forth item will be [4, NULL, 4 NULL] because of a more comples reason,
+the first item before iterating over the forth item will be [4, NULL, 4 NULL], and because every item 4 was NULL, it will copy the value of item 1 and set it to [NULL,NULL,NULL,NULL]

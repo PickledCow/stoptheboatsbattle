@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Missle_Launch-Kibblesbob-2118796725-old1.wav-cb23844899e083a1a43f11ce1608f9ec.sample"
+
+[deps]
+
+source_file="res://sound/se/Missle_Launch-Kibblesbob-2118796725-old1.wav"
+source_md5="f438a6de5b35ed0538885e52b5218512"
+
+dest_files=[ "res://.import/Missle_Launch-Kibblesbob-2118796725-old1.wav-cb23844899e083a1a43f11ce1608f9ec.sample" ]
+dest_md5="dd592f738d6078935962f589f8431e7a"
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

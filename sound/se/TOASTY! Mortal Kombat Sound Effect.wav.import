@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/TOASTY! Mortal Kombat Sound Effect.wav-dd2774560aeeedfdead49bf75c3d4ec6.sample"
+
+[deps]
+
+source_file="res://sound/se/TOASTY! Mortal Kombat Sound Effect.wav"
+source_md5="4f24d717c9a2862f412d0310a78179b4"
+
+dest_files=[ "res://.import/TOASTY! Mortal Kombat Sound Effect.wav-dd2774560aeeedfdead49bf75c3d4ec6.sample" ]
+dest_md5="fbb62d6ac6de21d1935e4286ded1c5ba"
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Shooting An MP5-SoundBible.com-704967207.wav-d5fe7a9f026746bebb72215446e9566e.sample"
+
+[deps]
+
+source_file="res://sound/se/Shooting An MP5-SoundBible.com-704967207.wav"
+source_md5="dc2438892f5800417884bf8a6c8d437b"
+
+dest_files=[ "res://.import/Shooting An MP5-SoundBible.com-704967207.wav-d5fe7a9f026746bebb72215446e9566e.sample" ]
+dest_md5="f9cf6d8688857d95153afdb18cb8afce"
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0
